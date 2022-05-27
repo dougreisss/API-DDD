@@ -37,7 +37,7 @@ namespace Infraestrutura.Configuracoes
 
         public string ObterStringConexao()
         {
-            string strCon = "";
+            string strCon = "SERVER=localhost;UID=root;PASSWORD=root;DATABASE=";
             return strCon;
         }
     }

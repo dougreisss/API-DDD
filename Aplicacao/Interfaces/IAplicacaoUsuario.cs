@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dominio.Interface
+namespace Aplicacao.Interfaces
 {
-    public interface IUsuario
+    public interface IAplicacaoUsuario
     {
         Task<bool> AdicionaUsuario(string email, string senha, int idade, string celular);
         Task<bool> ExisteUsuario(string email, string senha);
