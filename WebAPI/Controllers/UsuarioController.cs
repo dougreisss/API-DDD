@@ -1,12 +1,15 @@
 ﻿using Aplicacao.Interfaces;
 using Entidades.Entidades;
+using Entidades.Enums;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.WebUtilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using WebAPI.Models;
 using WebAPI.Token;
@@ -67,7 +70,7 @@ namespace WebAPI.Controllers
             if (string.IsNullOrWhiteSpace(login.email) || string.IsNullOrWhiteSpace(login.senha))
                 return BadRequest("Falta dados");
 
-            var resultado = await _IAplicacaoUsuario.AdicionaUsuario(login.email, login.senha, login.idade, login.celular);
+            var resultado = await _IAplicacaoUsuario.AdicionaUsuario(login.email, login.senha, login.idade, login.celular, TipoUsuario.Comum);
 
             if (resultado)
                 return Ok("Usuario criado com sucesso!");
@@ -104,6 +107,46 @@ namespace WebAPI.Controllers
             {
                 return Unauthorized();
             }
+
+        }
+
+        [AllowAnonymous]
+        [Produces("application/json")]
+        [HttpPost("/api/AdicionaUsuarioIdentity")]
+        public async Task<IActionResult> AdicionaUsuarioIdentity([FromBody] Login login)
+        {
+            if (string.IsNullOrWhiteSpace(login.email) || string.IsNullOrWhiteSpace(login.senha))
+                return Ok("Falta alguns dados");
+
+            var user = new ApplicationUser
+            {
+                UserName = login.email,
+                Email = login.email,
+                Celular = login.celular,
+                Idade = login.idade,
+                Tipo = TipoUsuario.Comum,
+            };
+
+            var resultado = await _userManager.CreateAsync(user, login.senha);
+
+            if (resultado.Errors.Any())
+            {
+                return BadRequest(resultado.Errors);
+            }
+
+            // Geração de Confirmação caso precise
+            var userId = await _userManager.GetUserIdAsync(user);
+            var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+            code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
+
+            // retorno email 
+            code = Encoding.UTF8.GetString(WebEncoders.Base64UrlDecode(code));
+            var resultado2 = await _userManager.ConfirmEmailAsync(user, code);
+
+            if (resultado2.Succeeded)
+                return Ok("Usuário Adicionado com Sucesso");
+            else
+                return BadRequest("Erro ao confirmar usuários");
 
         }
     }

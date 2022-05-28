@@ -19,9 +19,10 @@ namespace Entidades.Entidades
         [MaxLength(255)]
         public string Titulo { get; set; }
 
-        [MaxLength(255)]
         [Column("NTC_INFORMACAO")]
+        [MaxLength(255)]
         public string Informacao { get; set; }
+
         [Column("NTC_ATIVO")]
         public bool Ativo { get; set; }
 
@@ -31,9 +32,9 @@ namespace Entidades.Entidades
         [Column("NTC_DATA_ALTERACAO")]
         public DateTime DataAlteracao { get; set; }
 
-        [ForeignKey("ApplicationUser")]    
+        [ForeignKey("ApplicationUser")]
         [Column(Order = 1)]
-        public int UserId { get; set; }
+        public string UserId { get; set; }
         public virtual ApplicationUser ApplicationUser { get; set; }
     }
 }

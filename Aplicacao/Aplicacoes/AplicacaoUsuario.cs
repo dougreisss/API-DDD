@@ -1,5 +1,6 @@
 ﻿using Aplicacao.Interfaces;
 using Dominio.Interface;
+using Entidades.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,9 +18,9 @@ namespace Aplicacao.Aplicacoes
             _IUsuario = usuario;
         }
 
-        public async Task<bool> AdicionaUsuario(string email, string senha, int idade, string celular)
+        public async Task<bool> AdicionaUsuario(string email, string senha, int idade, string celular, TipoUsuario tipoUsuario)
         {
-            return await _IUsuario.AdicionaUsuario(email, senha, idade, celular);
+            return await _IUsuario.AdicionaUsuario(email, senha, idade, celular, tipoUsuario);
         }
 
         public async Task<bool> ExisteUsuario(string email, string senha)

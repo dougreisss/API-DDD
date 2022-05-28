@@ -1,5 +1,6 @@
 ﻿using Dominio.Interface;
 using Entidades.Entidades;
+using Entidades.Enums;
 using Infraestrutura.Configuracoes;
 using Infraestrutura.Repositorio.Genericos;
 using Microsoft.EntityFrameworkCore;
@@ -20,7 +21,7 @@ namespace Infraestrutura.Repositorio
             _optionsBuilder = new DbContextOptions<Contexto>();
         }
 
-        public async Task<bool> AdicionaUsuario(string email, string senha, int idade, string celular)
+        public async Task<bool> AdicionaUsuario(string email, string senha, int idade, string celular, TipoUsuario tipoUsuario)
         {
             try
             {
@@ -31,7 +32,8 @@ namespace Infraestrutura.Repositorio
                         Email = email,
                         PasswordHash = senha,
                         Idade = idade,
-                        Celular = celular
+                        Celular = celular,
+                        Tipo = tipoUsuario
                     });
 
                     await data.SaveChangesAsync();

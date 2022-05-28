@@ -23,7 +23,6 @@ namespace Infraestrutura.Configuracoes
             builder.Entity<ApplicationUser>().ToTable("AspNetUsers").HasKey(t => t.Id);
 
             base.OnModelCreating(builder);
-
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -37,7 +36,7 @@ namespace Infraestrutura.Configuracoes
 
         public string ObterStringConexao()
         {
-            string strCon = "SERVER=localhost;UID=root;PASSWORD=root;DATABASE=";
+            string strCon = @"Server=localhost\SQLEXPRESS;Database=prjNoticia;Trusted_Connection=True";
             return strCon;
         }
     }
