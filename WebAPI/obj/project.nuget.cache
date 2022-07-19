@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rU0QhSnSeoT86X/1aNuWddMJPs49Mvut/0Co8jraH1ycppWRO3uCz8C69zfcFPUyKF9AcBv/2NREy06PZ/c3FA==",
+  "dgSpecHash": "01mvr8VGxAlTRW6VDDfQHzzYH90czuDNNTUMK8wGbfSf7BJN3Ho2wWGIM5ZhWrIrt+DjcQnKXLwm6Hp6KMG3fg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dougl\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Dougl\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.13\\microsoft.aspnetcore.authentication.jwtbearer.5.0.13.nupkg.sha512",
@@ -113,8 +113,7 @@
     "C:\\Users\\Dougl\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Dougl\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Dougl\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Dougl\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\Dougl\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+    "C:\\Users\\Dougl\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

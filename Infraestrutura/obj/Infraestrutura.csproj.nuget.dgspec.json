@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Infraestrutura\\Infraestrutura.csproj": {}
+    "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Infraestrutura\\Infraestrutura.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\Dougl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Dominio\\obj\\",
+        "outputPath": "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dougl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Entidade\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Entidade\\Entidades.csproj"
+              "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Entidade\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Entidade\\Entidades.csproj"
               }
             }
           }
@@ -53,23 +53,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Entidade\\Entidades.csproj": {
+    "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Entidade\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Entidade\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Entidade\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Entidade\\Entidades.csproj",
+        "projectPath": "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Entidade\\Entidades.csproj",
         "packagesPath": "C:\\Users\\Dougl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Entidade\\obj\\",
+        "outputPath": "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Entidade\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dougl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -137,23 +151,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Infraestrutura\\Infraestrutura.csproj": {
+    "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Infraestrutura\\Infraestrutura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Infraestrutura\\Infraestrutura.csproj",
+        "projectUniqueName": "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Infraestrutura\\Infraestrutura.csproj",
         "projectName": "Infraestrutura",
-        "projectPath": "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Infraestrutura\\Infraestrutura.csproj",
+        "projectPath": "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Infraestrutura\\Infraestrutura.csproj",
         "packagesPath": "C:\\Users\\Dougl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Infraestrutura\\obj\\",
+        "outputPath": "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Infraestrutura\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dougl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -170,11 +198,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Dominio\\Dominio.csproj"
+              "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Dominio\\Dominio.csproj"
               },
-              "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Entidade\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Entidade\\Entidades.csproj"
+              "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Entidade\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Entidade\\Entidades.csproj"
               }
             }
           }
@@ -224,12 +252,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
         }
       }
     }

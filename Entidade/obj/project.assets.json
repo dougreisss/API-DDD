@@ -6289,11 +6289,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Entidade\\Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Entidade\\Entidades.csproj",
       "projectName": "Entidades",
-      "projectPath": "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Entidade\\Entidades.csproj",
+      "projectPath": "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Entidade\\Entidades.csproj",
       "packagesPath": "C:\\Users\\Dougl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Entidade\\obj\\",
+      "outputPath": "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Entidade\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dougl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6361,12 +6361,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m4wXYx+Qkd3hoADlyFtl6GFv/CBejMnbs/lsIdAfQUxZo/yw1UBSum/drLCopDmFPg2RM+pTjEcUyeTmf7Saow==",
+  "dgSpecHash": "6+Woy4tKz7bSqkvHAnAwNwOBpks9wlASBLxQJs9zaXc9kqPRu9cjsfpbuTdRqLPrMFxMkVpRXq5s/594AxNWbg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dougl\\Documents\\Estudos\\DDD\\API_DDD_2022\\Infraestrutura\\Infraestrutura.csproj",
+  "projectFilePath": "C:\\Users\\Dougl\\OneDrive\\Documentos\\Estudo\\API-DDD\\Infraestrutura\\Infraestrutura.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dougl\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Dougl\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.5\\microsoft.aspnetcore.cryptography.internal.6.0.5.nupkg.sha512",
@@ -111,7 +111,10 @@
     "C:\\Users\\Dougl\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Dougl\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Dougl\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Dougl\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Dougl\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Dougl\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Dougl\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Dougl\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

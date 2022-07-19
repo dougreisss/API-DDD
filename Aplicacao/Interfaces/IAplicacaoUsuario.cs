@@ -11,6 +11,7 @@ namespace Aplicacao.Interfaces
     {
         Task<bool> AdicionaUsuario(string email, string senha, int idade, string celular, TipoUsuario tipoUsuario);
         Task<bool> ExisteUsuario(string email, string senha);
+        Task<string> RetornaIdUsuario(string email);
 
     }
 }
